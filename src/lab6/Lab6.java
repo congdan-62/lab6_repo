@@ -21,11 +21,10 @@ public class Lab6 {
         System.out.println("Hello from Dan Dao");
         System.out.println("Trying to conflict");
         
-        int i = 0;
-        do {
-        i++;
-        System.out.println(i + "");}
-        while(i < 5);
+        for(int i = 0;i < 5; i++){
+           
+            System.out.println("This is a conflict:" + i);};
+           
     }
     
 }
