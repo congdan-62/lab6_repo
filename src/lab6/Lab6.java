@@ -18,6 +18,8 @@ public class Lab6 {
         // TODO code application logic here
         System.out.println("Hello from Dan Dao");
         System.out.println("Trying to conflict");
+        int i = 0;
+        i++;
     }
     
 }
