@@ -17,6 +17,7 @@ public class Lab6 {
     public static void main(String[] args) {
         // TODO code application logic here
         System.out.println("Hello from Dan Dao");
+        System.out.println("Trying to conflict");
     }
     
 }
