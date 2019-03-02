@@ -25,6 +25,9 @@ public class Lab6 {
            
             System.out.println("This is a conflict:" + i);};
            
+       
+        System.out.println("This is a main");
+        
     }
     
 }
