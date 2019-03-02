@@ -5,6 +5,8 @@
  */
 package lab6;
 
+import jdk.nashorn.internal.ir.VarNode;
+
 /**
  *
  * @author Dan Dao
@@ -18,8 +20,12 @@ public class Lab6 {
         // TODO code application logic here
         System.out.println("Hello from Dan Dao");
         System.out.println("Trying to conflict");
+        
         int i = 0;
+        do {
         i++;
+        System.out.println(i + "");}
+        while(i < 5);
     }
     
 }
